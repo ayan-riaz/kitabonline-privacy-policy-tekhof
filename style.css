@@ -8,55 +8,73 @@
 body {
     background-color: #f4f6f8;
     color: #333;
-    line-height: 1.6;
+    line-height: 1.7;
 }
 
+/* Main container */
 .container {
     max-width: 900px;
     margin: 40px auto;
     background: #ffffff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 
+/* Headings */
 h1 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
+    color: #2c3e50;
 }
 
 .updated {
     text-align: center;
     font-size: 14px;
-    color: #666;
-    margin-bottom: 30px;
+    color: #777;
+    margin-bottom: 35px;
 }
 
 section {
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 h2 {
-    color: #2c3e50;
+    color: #34495e;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+p {
     margin-bottom: 10px;
 }
 
+/* Lists */
 ul {
-    padding-left: 20px;
+    padding-left: 22px;
 }
 
 ul li {
     margin-bottom: 8px;
 }
 
-.email {
-    font-weight: bold;
+/* Links */
+a {
     color: #0066cc;
+    text-decoration: none;
+    font-weight: 500;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
 footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
     text-align: center;
-    margin-top: 30px;
     font-size: 14px;
-    color: #777;
+    color: #666;
 }
